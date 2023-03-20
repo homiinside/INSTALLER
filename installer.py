@@ -39,7 +39,7 @@ def get_fresh_link():
 	global CODE
 
 	try:
-		r = req.get("https://raw.githubusercontent.com/lhp-ReCmP/get_code/main/link").text
+		r = req.get("https://raw.githubusercontent.com/homiinside/get_code/main/link").text
 
 		c_spos = r.find("#$CODE#")
 		c_epos = r.find("$#CODE")
